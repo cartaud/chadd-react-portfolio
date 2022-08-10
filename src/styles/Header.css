@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@600&family=Raleway:wght@200&display=swap');
+
+.header {
+    background-color: #202020;
+    width: 25%;
+    padding: 20px 10px;
+}
+
+.header header h3{
+    color: #f19b2c;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: 35px;
+    margin: 0;
+    line-height: 1em;
+}
+
+.header header div {
+    color: white;
+}

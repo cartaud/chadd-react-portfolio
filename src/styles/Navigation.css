@@ -1,0 +1,21 @@
+.directory-container button {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    width: fit-content;
+    border: none;
+    background-color: #202020;
+}
+
+.directory-container button:hover {
+    color: #f19b2c;
+}
+
+
+.directory-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 10px;
+}
