@@ -1,7 +1,7 @@
 import '../styles/Project.css'
 const Project = () => {
     return (
-    <div className="project-container">
+    <div className="body-container">
         <header>
             <h1 className="orange">MY PROJECTS</h1>
             <h2>CLICK ON THE PROJECT TO VIEW</h2>

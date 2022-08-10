@@ -1,11 +1,21 @@
+h5,
+h6 {
+    margin: 0;
+}
+
 .projects {
     display: flex;
     flex-direction: column;
+    gap: 2.2vw;
     margin-top: 20px;
 }
 
 .projects div {
     display: flex;
+}
+
+.project-container a{
+    height: fit-content;
 }
 
 .project-container img{
@@ -23,7 +33,7 @@
 .project-title {
     display: flex;
     flex-direction: column;
-    position: relative;
+    position: absolute;
     bottom: 20%;
     width: fit-content;
     background-color: #f19b2c;

@@ -9,7 +9,7 @@ const Header = (props) => {
                 <h3>Chadd Artaud</h3>
                 <div>Full Stack Coding Portfolio</div>
             </header>
-            <Navigation loadAbout={props.loadAbout} loadProjects={props.loadProjects} loadResume={props.loadResume}/>
+            <Navigation loadAbout={props.loadAbout} loadProjects={props.loadProjects} loadResume={props.loadResume} style={props.style}/>
             <Social />
         </div>
     )

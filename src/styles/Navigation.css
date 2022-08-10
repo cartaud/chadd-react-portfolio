@@ -7,11 +7,6 @@
     background-color: #202020;
 }
 
-.directory-container button:hover {
-    color: #f19b2c;
-}
-
-
 .directory-container {
     margin-top: 50px;
     display: flex;

@@ -1,10 +1,10 @@
-import Footer from './Footer'
 import '../styles/Body.css'
 
 const Body = () => {
+    
 
     return (
-        <div className="body">
+        <div className="body-container">
             <header>
                 <h1 className="orange">MY NAME IS CHADD ARTAUD</h1>
                 <h2>DEDICATED TO WRITING CLEAN CODE</h2>
@@ -30,7 +30,6 @@ const Body = () => {
                     </p>
                 </div>
             </div>
-            <Footer />
         </div>
     )
 }
