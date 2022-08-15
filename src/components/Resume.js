@@ -7,12 +7,12 @@ const Resume = () => {
         },
     }
     return (
-        <div className="resume-container">
+        <div>
             <header>
                 <h1 className="orange">RESUME</h1>
                 <h2>CLICK THE IMAGE TO DOWNLOAD PDF</h2>
             </header>
-            <div className='resume'>
+            <div>
                 <a href="https://drive.google.com/file/d/1n5-wPxqw82s8pUMNHW0HL1LJuLcvy4Tn/view?usp=sharing" target="_blank" rel="noreferrer">
                     <img src={require('../images/resumePreview.png')} alt="Resume" style={styles.resume}/>
                 </a>

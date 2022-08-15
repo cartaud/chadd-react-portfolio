@@ -1,9 +1,19 @@
 const Social = () => {
 
+    const styles = {
+        container: {
+            color: 'white',
+        },
+        icons: {
+            display: 'flex',
+            gap: '5%',
+        },
+    };
+
     return (
-        <div className="social-container">
+        <div style={styles.container}>
             <p>SOCIAL</p>
-             <div className="social-icons">
+             <div style={styles.icons}>
              <a href="https://www.linkedin.com/in/chadd-artaud/" target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin"></i></a>
                 <a href="https://github.com/cartaud" target="_blank" rel="noreferrer"><i className="fa-brands fa-github"></i></a>
                 <a href="https://twitter.com/ArtaudChadd" target="_blank" rel="noreferrer"> <i className="fa-brands fa-twitter-square"></i></a>
