@@ -8,7 +8,7 @@ import { useState } from 'react'
 const styles = {
     container: {
         display: 'flex',
-        
+        height: '100%',
     },
 };
 

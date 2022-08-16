@@ -6,12 +6,16 @@ const styles = {
         width: '75%',
         padding: '20px 5px',
     },
+    content: {
+        height: '95%',
+        marginBottom: '30px'
+    },
 };
 
 const Content = (prop) => {
     return (
         <div style={styles.container}>
-            {prop.content}
+            <div style={styles.content}>{prop.content}</div>
             <Footer />
         </div>
     )
