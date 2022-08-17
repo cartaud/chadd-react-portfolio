@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/chadd-react-portfolio/static/css/main.c96c2807.css",
+    "main.js": "/chadd-react-portfolio/static/js/main.1bfaef8a.js",
+    "static/media/eCom.png": "/chadd-react-portfolio/static/media/eCom.6e7ed5c413a801535aa4.png",
+    "static/media/employeeTracker.png": "/chadd-react-portfolio/static/media/employeeTracker.e18b9dd56b7c467e80ac.png",
+    "static/media/profile.png": "/chadd-react-portfolio/static/media/profile.81240a2af472058d9745.png",
+    "static/media/resumePreview.png": "/chadd-react-portfolio/static/media/resumePreview.2a198098e2c2e8f1dbf9.png",
+    "static/media/musicStore.png": "/chadd-react-portfolio/static/media/musicStore.86972436e018582da6ef.png",
+    "static/media/techBlog.png": "/chadd-react-portfolio/static/media/techBlog.93753ab381391ad59b6c.png",
+    "static/media/noteTaker.png": "/chadd-react-portfolio/static/media/noteTaker.e6773991944ebea24f86.png",
+    "static/media/etch.png": "/chadd-react-portfolio/static/media/etch.4f7c34575f6e16ad84ad.png",
+    "index.html": "/chadd-react-portfolio/index.html",
+    "main.c96c2807.css.map": "/chadd-react-portfolio/static/css/main.c96c2807.css.map",
+    "main.1bfaef8a.js.map": "/chadd-react-portfolio/static/js/main.1bfaef8a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c96c2807.css",
+    "static/js/main.1bfaef8a.js"
+  ]
+}
