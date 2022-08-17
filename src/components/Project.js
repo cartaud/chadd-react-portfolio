@@ -1,31 +1,26 @@
 
 const styles = {
-    header: {
-        margin: 0,
-    },
     projects: {
         display: 'flex',
         flexDirection: 'column',
-        gap: '2.2vw',
         marginTop: '20px',
-    },
+    }, 
     flex: {
         display: 'flex',
     },
     fit: {
-        height: 'fit-content',
+        height: '100%'
     },
     img: {
         maxWidth: '90%',
-        maxHeight:'fit-content',
         border: '2px #f19b2c solid',
         transition: 'all 0.5s ease-in-out',
     },
     title: {
         display: 'flex',
         flexDirection: 'column',
-        position: 'absolute',
-        bottom: '20%',
+        position: 'relative',
+        bottom: '25%',
         width: 'fit-content',
         backgroundColor: '#f19b2c',
         textDecoration: 'none',
@@ -33,9 +28,12 @@ const styles = {
         padding: '1% 2%',
         zIndex: 1,
     },
+    header: {
+        margin: 0,
+    },
 };
 
-const Project = () => {
+const Project = () => { //create a project object and map over it instead of repeating the same code 
 
     return (
     <div>
@@ -46,9 +44,7 @@ const Project = () => {
         <div style={styles.projects}>
             <div style={styles.flex}>
                 <div className="project-container">
-                    <a href="https://github.com/cartaud/mvcTechBlog" 
-                    target="_blank" rel="noreferrer" 
-                    style={styles.fit}>
+                    <a href="https://github.com/cartaud/mvcTechBlog" target="_blank" rel="noreferrer" style={styles.fit}>
                     <img src={require('../images/techBlog.png')}  alt="Tech Blog" style={styles.img}/>
                     <div style={styles.title}>
                         <h5 style={styles.header}>Tech Blog</h5>
