@@ -6,26 +6,17 @@
     box-sizing:border-box;
 }
 
-html {
-    height: 100%;
+html,
+body {
+  height: 100%;
+  color: white;
+  background-color: #252525;
 }
 
 body {
     min-height: 100%;
     line-height: 1;
     font-family: sans-serif;
-}
-
-html,
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  color: white;
-  background-color: #252525;
-}
-
-body {
     display: flex;
     height: fit-content;
 }
@@ -44,11 +35,11 @@ h2 {
     padding: 0;
 }
 
-h3 {
-    font-family: 'Edu VIC WA NT Beginner', cursive;
-    font-size: 35px;
-    margin-bottom: 0;
-    padding: 0;
+h5 {
+    font-size: 1.4vw;
+}
+h6 {
+    font-size: 1vw;
 }
 
 a {
