@@ -27,10 +27,9 @@ const Body = () => {
                 </div>
                 <div>
                     <p style={styles.bio}>
-                        My name is Chadd Artaud and I was born and raised in San Diego, California. I am a 24 year old
-                        beginning my journey into software engineering. My first experience with coding was as an 
-                        undergraduate at the University of Nevada, Reno where I earned my Bachelors of Science in Mechanical 
-                        Engineering. I enjoy solving challenging problems as there is no better feeling than solving 
+                        My name is Chadd Artaud and I was born and raised in San Diego, California. My first experience with 
+                        coding was as an undergraduate at the University of Nevada, Reno where I earned my Bachelors of Science
+                        in Mechanical Engineering. I enjoy solving complex problems as there is no better feeling than solving 
                         a problem that you have been working on for a long period of time. 
                     </p>
                     <br /><br />
